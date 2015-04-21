@@ -31,6 +31,7 @@ function preload() {
 function create() {
     // set the background colour of the scene
     game.stage.setBackgroundColor("#66A3E0");
+    game.add.sprite(0,0,"back")
     game.add.text(10, 355, "Welcome to Flappy Duck. It's like Flappy Bird, but not.",
         {font: "30px Comic Sans MS", fill: "#FFFFFF"});
     player = game.add.sprite(10, 200, "duck");
@@ -82,7 +83,7 @@ function create() {
         spaceHandler);
     game.add.text(10, 355, "Welcome to Flappy Duck. It's like Flappy Bird, but not.",
         {font: "30px Comic Sans MS", fill: "#FFFFFF"});
-    labelScore = game.add.text(20, 20, "0", {fill: "#FFFFFF"});
+    labelScore = game.add.text(20, 20, "0", {fill: "#000000"});
 }
 
 function changeScore() {
