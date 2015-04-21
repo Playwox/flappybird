@@ -105,11 +105,11 @@ function spaceHandler() {
 
 function moveRight() {
     //player.x = player.x + 10
-    player.body.velocity.x = 100;
+    player.body.velocity.x = 0;
 }
 function moveLeft() {
     //player.x = player.x - 10
-    player.body.velocity.x = -100;
+    player.body.velocity.x = 0;
 }
 function moveUp() {
    // player.y = player.y - 10
@@ -117,7 +117,7 @@ function moveUp() {
 }
 function moveDown() {
     //player.y = player.y + 10
-    player.body.velocity.y = 100;
+    player.body.velocity.y = 0;
 }
 function moveStop() {
     //player.body.velocity.x = 0
